@@ -191,7 +191,7 @@ public final class SunshinePreferences {
      * @param context Used to access SharedPreferences as well as use other utility methods
      * @return Elapsed time in milliseconds since the last notification was shown
      */
-    public static long getEllapsedTimeSinceLastNotification(Context context) {
+    public static long getElapsedTimeSinceLastNotification(Context context) {
         long lastNotificationTimeMillis =
                 SunshinePreferences.getLastNotificationTimeInMillis(context);
         long timeSinceLastNotification = System.currentTimeMillis() - lastNotificationTimeMillis;
